@@ -44,6 +44,7 @@ Main tasks/functions:
 - Return: None
 - Algorithm:
 1. output program explanation to user
+2. set room 1 cost, room 2 cost, room 3 cost, room 4 cost and room 5 cost to 0
 2. create while loop for if count is less than five. 
 3. create while loop for if user input is invalid
    1. ask user to input room width and room length 
@@ -51,6 +52,18 @@ Main tasks/functions:
    1. if user input is invalid:
       2. ask user to input valid input
    1. else:
-   
+4. if room 1 cost = 0:
+   5. assign room cost to room 1 cost
+6. elif room 2 cost = 0
+   7. assign room cost to room 2 cost
+8. elif room 3 cost = 0
+   9. assign room cost to room 3 cost
+10. elif room 4 cost = 0
+    11. assign room cost to room 4 cost
+12. else:
+    13. assign room cost to room 5 cost
+5. add 1 to cost 
+6. call total cost function
+7. output cost for each room and total cost 
 
 4. Ask user if they want to check another design
