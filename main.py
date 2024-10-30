@@ -83,11 +83,11 @@ def main():
         total_cost = 0
         room_count = 0
 
-        print("Enter room details for 5 rooms.")
+        print("Enter room details for each room.")
 
         # Loop to collect details for each room
         while room_count < 5:  # Continue until 5 rooms are entered
-            print(f"\nEntering details for Room {room_count + 1}:")
+            print(f"\nDetails for Room {room_count + 1}:")
             width, length, flooring_type = get_room_info()  # Collect room info
             room_cost = calculate_cost(width, length, flooring_type)  # Calculate cost
             total_cost += room_cost  # Add to total cost
@@ -95,15 +95,15 @@ def main():
             room_count += 1  # Increment the room count
 
         # Display total cost for all rooms
-        print(f"\nThe total cost for all rooms is: ${total_cost:.2f}")
+        print(f"\nThe total cost for all rooms for this design is: ${total_cost:.2f}")
 
-        check_another = input("Would you like to check the cost of another design? (Input 'yes' or 'no'): ").lower().strip()
+        check_another = input("\nWould you like to check the cost of another design? (Input 'yes' or 'no'): ").lower().strip()
 
         while check_another != "no" and check_another != "yes":
             print ("Invalid input. Please try again!")
-            check_another = input("Would you like to check the cost of another design? (Input yes or no)").lower().strip()
+            check_another = input("\nWould you like to check the cost of another design? (Input yes or no): ").lower().strip()
         if check_another == "no":
-            print("Thank you for using the flooring cost calculator! Goodbye!")
+            print("\nThank you for using the flooring cost calculator! Goodbye!")
 
 # Run the main function
 main()
