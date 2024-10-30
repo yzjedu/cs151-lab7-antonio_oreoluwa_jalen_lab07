@@ -15,7 +15,7 @@
 
 # Purpose: Collects and validates the dimensions and flooring type for a room.
 # Parameters: None
-# Return: (float, float, str) - width, length, and flooring type of the room.
+# Return: width(float), length(float), and flooring type(float) of the room
 def get_room_info():
 
     # Get the width of the room
