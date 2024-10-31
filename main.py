@@ -1,4 +1,4 @@
-# Programmers: Oreoluwa Adebusoye, Antonio
+# Programmers: Oreoluwa Adebusoye, Antonio Dueno Martinez
 # Course: CS151, Zelalem Yalew
 # Due Date: 10/30
 # Programming Assignment: Lab 07

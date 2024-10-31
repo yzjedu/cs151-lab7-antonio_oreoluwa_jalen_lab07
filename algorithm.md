@@ -1,6 +1,6 @@
 # Algorithm Document
 
-1. Function: get_room_info()
+1. Function Name: get_room_info()
    - Purpose: To collect and validate the dimensions and flooring type for a room. 
    - Parameters: None 
    - Returned Value: width(float), length(float), and flooring type(float) of the room. 
@@ -18,7 +18,7 @@
         1. Prompt the user to re-enter the flooring type. 
      9. Return the width, length, and flooring type.
 
-2. Function: calculate_cost(width, length, flooring_type)
+2. Function Name: calculate_cost()
    - Purpose: To calculate the cost of flooring based on room dimensions and type of flooring. 
    - Parameters: width (float), length (float), flooring_type (str)
    - Returned Value: float - total cost of flooring for the room. 
@@ -34,7 +34,7 @@
      6. Calculate the total cost by multiplying the area by cost_per_sqft.
      7. Return the total cost.
 
-3. Function: main()
+3. Function name: main()
    - Purpose: To orchestrate the overall flow of the program, collecting inputs for multiple rooms and displaying the total cost. 
    - Parameters: None 
    - Returned Value: None 
