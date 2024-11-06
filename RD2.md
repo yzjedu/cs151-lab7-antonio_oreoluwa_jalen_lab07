@@ -1,46 +1,45 @@
-ENCRYPTED:
-# Qdekdbshnm Cnbtldms
+# Reflection Document
 
-* Cqhud Etkk Mzld: Zmsnmhn Ctdmn
-* Ozqsmdq Etkk Mzld: Nqdnktvz Zcdatrnxd
-* Rstcdms HC: 1906253
+* Drive Full Name: Antonio Dueno
+* Partner Full Name: Oreoluwa Adebusoye
+* Student ID: 1906253
 
-### Naidbshud
-#### Vgzs vdqd xnt rtoonrdc sn kdzqm/zbbnlokhrg?
-Vd vdqd rtoonrdc sn bqdzsd z oqnfqzl sgzs vntkc bzkbtkzsd sgd snszk bnrs ne qdlncdkhmf sgd eknnqhmf ne ehud qnnlr, fhudm 
-sgd eknnqhmf sxod, sgd vhcsg zmc sgd kdmfsg ne dzbg qnnl.
+### Objective
+#### What were you supposed to learn/accomplish?
+We were supposed to create a program that would calculate the total cost of remodeling the flooring of five rooms, given 
+the flooring type, the width and the length of each room.
 
-### Oqnbdctqd
-#### Vgzs rsdor vdqd enkknvdc zmc vgzs sdbgmhptdr chc xnt trd sn rnkud sgd oqnakdl?
-1. Ehqrs, vd bqdzsdc zm zkfnqhsgl vghbg gdkodc tr cdbhcd gnv vd vzmsdc sgd oqnfqzl sn etmbshnm.
-2. Vd bqdzsdc sgd sdrs bzrdr zmc eknvbgzqsr rn vd bntkc uhrtzkhyd gnv sgd oqnfqzl vzr rtoonrdc sn vnqj zmc vgzs hs vzr 
-   rtoonrdc sn qdstqm.
-3. vd vqnsd nts sgd bncd enq sgd oqnfqzl, zmc vnqjdc nm cdatffhmf tmshk hs etmbshnmdc zr hmsdmcdc.
+### Procedure
+#### What steps were followed and what techniques did you use to solve the problem?
+1. First, we created an algorithm which helped us decide how we wanted the program to function.
+2. We created the test cases and flowcharts so we could visualize how the program was supposed to work and what it was 
+   supposed to return.
+3. we wrote out the code for the program, and worked on debugging until it functioned as intended.
 
-#### Vgzs vdqd sgd jdx bnmbdosr dwoknqdc?
-Cdehmhmf zmc bzkkhmf etmbshnmr.
+#### What were the key concepts explored?
+Defining and calling functions.
 
-#### Chc xntq qdrtksr lzsbg vgzs xnt dwodbsdc sn fds?
-Ntq qdrtksr lzsbgdc sgd qdrtksr vd gzc hm sgd sdrs bzrdr, rn xdr.
+#### Did your results match what you expected to get?
+Our results matched the results we had in the test cases, so yes.
 
-#### Chc xnt sqx trhmf uzqhntr sdrs bzrdr, nq dwsqdld sdrs bzrdr?
-Vd trdc uzqhntr zudqzfd sdrs bzrdr hmrsdzc ne dwsqdld sdrs bzrdr.
+#### Did you try using various test cases, or extreme test cases?
+We used various average test cases instead of extreme test cases.
 
-### Qdekdbshnm
-#### Vgzs bgzkkdmfd chc xnt dmbntmsdq?
-Hs vzr z ahs bgzkkdmfhmf sghmjhmf ne gnv vd vntkc bqdzsd z vghkd knno sgzs vntkc nmkx knno 5 shldr.
+### Reflection
+#### What challenge did you encounter?
+It was a bit challenging thinking of how we would create a while loop that would only loop 5 times.
 
-#### Gnv chc xnt enkknv sgd ehqrs 3 qtkdr ne oqnfqzllhmf?
-Adenqd bnchmf, vd bqdzsdc zm zkfnqhsgl, vd lzcd rtqd sgd bncd vzr qdzczakd ax lzjhmf uzqhzakd mzldr bkdzq zmc hmbktchmf
-bnlldmsr, zmc vd oqzbshbdc enq bnchmf hm sghr kza uhz sgd oqduhntr vnqj vd gzc vhsg etmbshnmr hm kza 6.
+#### How did you follow the first 3 rules of programming?
+Before coding, we created an algorithm, we made sure the code was readable by making variable names clear and including
+comments, and we practiced for coding in this lab via the previous work we had with functions in lab 6.
 
-#### Chc xnt nudqbnld sgdl zmc gnv?
-Vd trdc bkzrr mnsdr zr qdedqdmbd, zmc vdqd dudmstzkkx zakd sn ehftqd nts gnv sn bqdzsd z knno sgzs nmkx knnodc 5 shldr.
+#### Did you overcome them and how?
+We used class notes as reference, and were eventually able to figure out how to create a loop that only looped 5 times.
 
-#### Cn xnt sghmj xnt kdzqmdc vgzs xnt vdqd rtoonrdc sn kdzqm enq sghr kza?
-H sghmj vnqjhmf nm sghr kza qdzkkx gdkodc vhsg adssdq tmcdqrszmchmf gnv sn bqdzsd zmc trd etmbshnmr.
+#### Do you think you learned what you were supposed to learn for this lab?
+I think working on this lab really helped with better understanding how to create and use functions.
 
-#### Vgzs vzr hs khjd vnqjhmf vhsg xntq ozqsmdq?
-Vnqjhmf vhsg Nqdnktvz vzr udqx mhbd, rgd chc z fnnc ina vhsg sgd bncd zmc vzr fqdzs sn vnqj vhsg enq lzjhmf sgd zkfnqhsgl.
-Izkdm chcms qdzkkx cn zmxsghmf. Gd mdudq qdzbgdc nts sn tr, zmc gd mdudq chc zmx vnqj, zs kdzrs sgzs H zl zvzqd ne.
+#### What was it like working with your partner?
+Working with Oreoluwa was very nice, she did a good job with the code and was great to work with for making the algorithm.
+Jalen didnt really do anything. He never reached out to us, and he never did any work, at least that I am aware of.
 
