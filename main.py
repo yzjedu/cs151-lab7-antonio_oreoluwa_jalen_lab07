@@ -16,36 +16,42 @@
 # Purpose: Collects and validates the dimensions and flooring type for a room.
 # Parameters: None
 # Return: width(float), length(float), and flooring type(float) of the room
-def get_room_info():
-
+def get_width():
     # Get the width of the room
-    width = input("Enter the width of the room (in feet): ")
+    width = float(input("Enter the width of the room (in feet): "))
 
     # Validate that the input is a positive number
-    while not width.isdigit() or float(width) <= 0:
+    while float(width) <= 0:
         print("Invalid input. Please enter a valid positive number.")
-        width = input("Enter the width of the room (in feet): ")
+        width = float(input("Enter the width of the room (in feet): "))
 
     # Convert the valid input to a float
-    width = float(width)
+    return width
 
+
+def get_length():
     # Get the length of the room
-    length = input("Enter the length of the room (in feet): ")
-    while not length.isdigit() or float(length) <= 0:
+    length = float(input("Enter the length of the room (in feet): "))
 
-        # Validate that the input is a positive number
+    # Validate that the input is a positive number
+    while float(length) <= 0:
         print("Invalid input. Please enter a valid positive number.")
-        length = input("Enter the length of the room (in feet): ")
+        length = float(input("Enter the length of the room (in feet): "))
 
     # Convert the valid input to a float
-    length = float(length)
+    return length
 
+
+def get_flooring_type():
     # Get the flooring type with validation
     flooring_type = input("Enter flooring type (options: hardwood, carpet, tile): ").strip().lower()
+
+    # Validate the flooring type
     while flooring_type != 'hardwood' and flooring_type != 'carpet' and flooring_type != 'tile':
         print("Invalid flooring type.")
         flooring_type = input("Enter flooring type (options: hardwood, carpet, tile): ").strip().lower()
-    return width, length, flooring_type           # Return the collected data
+    return flooring_type
+
 
 # Purpose: Calculates the cost of flooring based on room dimensions and type of flooring.
 # Parameters:
@@ -88,7 +94,9 @@ def main():
         # Loop to collect details for each room
         while room_count < 5:  # Continue until 5 rooms are entered
             print(f"\nDetails for Room {room_count + 1}:")
-            width, length, flooring_type = get_room_info()  # Collect room info
+            width = get_width()
+            length = get_length()
+            flooring_type = get_flooring_type()
             room_cost = calculate_cost(width, length, flooring_type)  # Calculate cost
             total_cost += room_cost  # Add to total cost
             print(f"The cost for room {room_count + 1} is: ${room_cost:.2f}")

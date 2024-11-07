@@ -1,24 +1,39 @@
 # Algorithm Document
 
-1. Function Name: get_room_info()
-   - Purpose: To collect and validate the dimensions and flooring type for a room. 
-   - Parameters: None 
-   - Returned Value: width(float), length(float), and flooring type(float) of the room. 
+1. Function Name: get_width()
+   - Purpose: To collect and validate the width of the room.
+   - Parameters: None
+   - Returned Value: A valid width 
    - Algorithm:
-     1. Prompt the user to enter the width of the room. 
-     2. While the input is not a positive number: 
-        1. Prompt the user to re-enter the width. 
-     3. Convert the valid width input to a float. 
-     4. Prompt the user to enter the length of the room.
-     5. While the input is not a positive number:
-        1. Prompt the user to re-enter the length. 
-     6. Convert the valid length input to a float. 
-     7. Prompt the user to enter the flooring type. 
-     8. While the flooring type is not one of the valid options (hardwood, carpet, tile):
-        1. Prompt the user to re-enter the flooring type. 
-     9. Return the width, length, and flooring type.
+   1. Prompt the user to enter the width of the room.
+   2. While the input is not a positive number:
+      1. Display an error message.
+      2. Prompt the user to re-enter the width.
+   3. Return the width.
 
-2. Function Name: calculate_cost()
+2. Function Name: get_length()
+   - Purpose: To collect and validate the length of the room.
+   - Parameters: None
+   - Returned Value: A valid length
+   - Algorithm:
+   1. Prompt the user to enter the length of the room.
+   2. While the input is not a positive number:
+      1. Display an error message. 
+      2. Prompt the user to re-enter the length.
+   3. Return the length.
+
+3. Function Name: get_flooring_type()
+   - Purpose: To collect and validate the flooring type for the room.
+   - Parameters: None
+   - Returned Value: A valid flooring_type as a string.
+   - Algorithm:
+   1. Prompt the user to enter the flooring type (options: hardwood, carpet, tile).
+   2. While the flooring type is not one of the valid options:
+      1. Display an error message. 
+      2. Prompt the user to re-enter the flooring type.
+   3. Return the valid flooring type.
+
+4. Function Name: calculate_cost()
    - Purpose: To calculate the cost of flooring based on room dimensions and type of flooring. 
    - Parameters: width (float), length (float), flooring_type (str)
    - Returned Value: float - total cost of flooring for the room. 
@@ -34,7 +49,7 @@
      6. Calculate the total cost by multiplying the area by cost_per_sqft.
      7. Return the total cost.
 
-3. Function name: main()
+5. Function name: main()
    - Purpose: To orchestrate the overall flow of the program, collecting inputs for multiple rooms and displaying the total cost. 
    - Parameters: None 
    - Returned Value: None 
@@ -46,7 +61,7 @@
       2. Output a message prompting the user to enter details for 5 rooms. 
       3. While room_count is less than 5:
          1. Output the current room number being entered. 
-         2. Call get_room_info() to collect room dimensions and flooring type. 
+         2. Call get_length(),get_width() and get_flooring type() to collect room dimensions and flooring type. 
          3. Call calculate_cost(width, length, flooring_type) to compute the cost for the current room. 
          4. Add the room cost to total_cost. 
          5. Output the cost for the current room. 
